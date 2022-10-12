@@ -1,21 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2? family= Inter & family= Noto+Serif+Telugu:wght@300 & family= Rubik+Maze & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Poppins & family= Quicksand:wght@500 & display=swap');
-
+@import "fuentes";
 /* section body */
-*{
-    padding: 0;
-    margin: 0;
-}
-body{
-    background-image: url(../imagenes/fondoGeneral.jpg);
-    text-align: center;
-    font-family: 'Poppins', sans-serif; 
-    font-weight: bolder;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+@import "generales";
+
 
 
 
@@ -471,31 +458,3 @@ font-family:  'Poppins', sans-serif;
     transform: scale(1.1); 
 }
 }
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-    /*familia tipográfica: 'Poppins', sans-serif;*/
-    /*'Quicksand', sans-serif;*/
-    /* CSS HEX 
---true-blue: #0466c8ff;
---usafa-blue: #0353a4ff;
---dark-cornflower-blue: #023e7dff;
---oxford-blue: #002855ff;
---oxford-blue-2: #001845ff;
---oxford-blue-3: #001233ff;
---independence: #33415cff;
---black-coral: #5c677dff;
---roman-silver: #7d8597ff;
---manatee: #979dacff;*/
