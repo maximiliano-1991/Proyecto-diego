@@ -417,8 +417,8 @@ hr {
     cursor: pointer;
     transform: scale(1.1);
   }  
-}
 
+}
 
 
 /* seccion seguros */
@@ -442,7 +442,7 @@ hr {
 
 }
 
-figure img{
+.figure__seguros{
   height: 250px;
   width:auto;
   border-radius: 15%;
@@ -482,26 +482,27 @@ figcaption{
 }
 
 
-@media (min-width: 768px) {
-  .envelope__seguros{
+@media (min-width: 768px){
+  .padre__seguros{
+    padding-top: 30px;
     background-color:darkgray;
     color: #001D3D;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "h1 h2 h3"
-    "hogar praxis accidente"
-    "autos moto bici"
-    "celu none none";
-  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
   }
 
-  figure img{
-    height: 300px;
+
+ .figure__seguros{
+    height: 230px;
     width:auto;
-    border-radius: 0%;
-
-
-  
-
-
+    border-radius: 3%;
+}
+.envelope__seguros{
+  background-color:  #001D3D;
+  color: white ;
+}
 }
