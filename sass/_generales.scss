@@ -5,9 +5,9 @@
 body{
     background-image: url(../imagenes/fondoGeneral.jpg);
     text-align: center;
-    font-family: 'Poppins', sans-serif; 
+    font-family: "Poppins", sans-serif;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-}
+    flex-wrap: nowrap;
+  }
